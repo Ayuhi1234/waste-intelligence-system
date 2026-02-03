@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% High-Level Architecture
     Sensor[IoT Sensor Node] -->|MQTT / Zigbee| Gateway[Edge Gateway]
@@ -12,3 +13,4 @@ graph TD
     subgraph Frontend
         Dashboard[React Dashboard] -->|REST API| Backend
     end
+```
