@@ -14,6 +14,7 @@ graph TD
         Dashboard["React Dashboard"] -->|"REST API"| Backend
     end
 ```
+
 2. Architecture Trade-offs
 Monolith vs. Microservices Architecture
 
@@ -59,4 +60,5 @@ Why? (Standardization): Python is the industry standard for Data Science. We run
 Hosting: Render / Railway
 
 Why? (Zero Ops): As a Founding Engineer, I want to focus on code, not server management. These platforms offer "Git-Push-to-Deploy," allowing interns to deploy their own preview environments easily
+
 
